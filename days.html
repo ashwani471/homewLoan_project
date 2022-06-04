@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loan_Amount.css">
+</head>
+<body>
+    <div class="outer-div">
+        <div class="left-div col-5">
+            <header class="col-12"><img src="images/paisaLogo.svg" width="148px" alt="paisabazaar_logo">
+            </header>
+            <div class="left_content col-9" id="left_content" >
+                <h1>HOME LOAN</h1>
+                <p>Owning a house and calling it your home is a dream many of us carry in our hearts. Paisabazaar helps
+                    you achieve that dream by offering the best interest rates.</p>
+            </div>
+        </div>
+        <div class="right-div col-7">
+            <header class="col-12"><button><a href="#">Sign In</a></button></header>
+
+            <div class="col-7 dynam-inc">
+              <div class="home_loan">HOME LOAN</div>
+              <div class="back" onclick="history.back()">&#60;</div>
+              <div class="steps">step <span class="inc-no">1</span>/5</div>
+            </div>
+             <p class="col-7 heading_underline">When are you planning to take the loan?</p>
+
+             <div class="col-7 right-content">
+                <div class="col-5 backBlue" onclick="makeFocus(this)" >Within 30 Days<a href="buy_property.html"><input type="radio" name="select_one" onclick="active(this)" id="active"></a></div>
+                
+                <div class="col-5 backBlue" onclick="makeFocus(this)" >31-90 Days<a href="buy_property.html"><input type="radio" name="select_one" onclick="active(this)" id="active"></a></div>
+
+                <div class="col-5 backBlue" onclick="makeFocus(this)" >91-180 Days<a href="buy_property.html"><input type="radio" name="select_one" onclick="active(this)" id="active"></a></div>
+
+                <div class="col-5 backBlue" onclick="makeFocus(this)" >180+ Days<a href="buy_property.html"><input type="radio" name="select_one" onclick="active(this)" id="active"></a></div>
+
+                
+                      
+            </div>
+            <script>
+                function makeFocus(id){
+                 console.log(id);
+                  var x=id.children[0].children[0];
+                  console.log(x);
+                  x.checked=true;
+                  window.location.href="/employementProfile.html";
+                }
+            </script>
+        </div>
+    </div>
+    <script>
+    </script>
+</body>
+</html>

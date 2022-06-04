@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Carousel</title>
+    <link rel="stylesheet" href="crousal.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="horizontal-scroll">
+            <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left" ></i></button>
+            <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="storys-container">
+                <div class="story-circle">
+                    <img src="" alt="">
+                   
+                </div>
+                <div class="story-circle">
+                    <img src="" alt="">
+                   
+                </div>
+                <div class="story-circle">
+                    <img src="" alt="">
+                   
+                </div>
+                <div class="story-circle">
+                    <img src="" alt="">
+                   
+                </div>
+                <div class="story-circle">
+                    <img src="" alt="">
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="review">
+        <div class="review__items">
+           
+            <h1>page 1</h1>
+            <p>
+              
+                this is page 1
+            </p>
+  
+        </div>
+  
+        <div class="review__items">
+            
+            <h1>page 2</h1>
+            <p>
+                this is page 2
+            </p>
+  
+        </div>
+  
+        <div class="review__items">
+            
+            <h1>page 3</h1>
+            <p>
+              this is page 3
+            <p>
+        </div>
+  
+        <div class="review__button">
+            <button id="prev" onclick="previousReview()">
+                PREV
+            </button>
+              
+            <button id="next" onclick="nextReview()">
+                NEXT
+            </button>
+        </div>
+    </div>
+  
+    <script>
+        let rev = 0;
+        carousel(rev);
+  
+        function previousReview() {
+            rev = rev - 1;
+            carousel(rev);
+        }
+  
+        function nextReview() {
+            rev = rev + 1;
+            carousel(rev);
+        }
+  
+        function carousel(review) {
+            let reviews = document.getElementsByClassName("review__items");
+  
+            if (review >= reviews.length) {
+                review = 0;
+                rev = 0;
+            }
+            if (review < 0) {
+                review = reviews.length - 1;
+                rev = reviews.length - 1;
+            }
+            for (let i = 0; i < reviews.length; i++) {
+                reviews[i].style.display = "none";
+            }
+            reviews[review].style.display = "block";
+        }
+    </script> -->
+</body>
+</body>
+</html>

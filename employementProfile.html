@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loan_Amount.css">
+</head>
+
+<body>
+    <div class="outer-div">
+        <div class="left-div col-5">
+            <header class="col-12"><img src="images/paisaLogo.svg" width="148px" alt="paisabazaar_logo">
+            </header>
+            <div class="left_content col-9" id="left_content">
+                <h1>HOME LOAN</h1>
+                <p>Owning a house and calling it your home is a dream many of us carry in our hearts. Paisabazaar helps
+                    you achieve that dream by offering the best interest rates.</p>
+            </div>
+        </div>
+        <div class="right-div col-7">
+            <header class="col-12"><button><a href="#">Sign In</a></button></header>
+
+            <div class="col-7 dynam-inc">
+                <div class="home_loan">HOME LOAN</div>
+                <div class="back" onclick="history.back()">&#60;</div>
+                <div class="steps">step <span class="inc-no">1</span>/5</div>
+            </div>
+            <p class="col-7 heading_underline">Employment Profile</p>
+
+            <div class="col-7 right-content">
+                <ul class="employee">
+                    <li class="employee1" onclick="makeFocus(this)">
+                        <label for="employee">Salaried</label>
+                        <input type="radio" name="employee" id="employee">
+                        <p class="describe">Receive fixed amount of income every month</p>
+                    </li>
+                    <li class="employee1" onclick="makeFocus(this)">
+                        <label for="employee">Self-Employed Business</label>
+                        <input type="radio" name="employee" id="employee">
+                        <p class="describe">Self-Employed Business</p>
+                    </li>
+                    <li class="employee1" onclick="makeFocus(this)">
+                        <label for="employee">Self-Employed Professional</label>
+                        <input type="radio" name="employee" id="employee">
+                        <p class="describe">Engage in a profession (Eg: Doctor, C.A., Lawyer, etc)
+
+                        </p>
+                    </li>
+                  
+                </ul>
+            </div>
+
+           
+
+        </div>
+    </div>
+    <script>
+        function makeFocus(id) {
+
+           var x=id.children[1];
+           x.checked=true;
+           window.location="/bank.html";
+        }
+        //  var x=document.getElementsByClassName('backBlue');
+        //  function active(id){
+        //      let length=x.length;
+        //      for( let i=0;i<length;i++)
+        //   x[i].style.borderColor='blue';
+        //  }
+    </script>
+</body>
+
+</html>

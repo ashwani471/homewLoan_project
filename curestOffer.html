@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loan_Amount.css">
+</head>
+<body>
+    <div class="outer-div">
+        <div class="left-div col-5">
+            <header class="col-12"><img src="images/paisaLogo.svg" width="148px" alt="paisabazaar_logo">
+            </header>
+            <div class="left_content col-9" id="left_content" >
+                <h1>HOME LOAN</h1>
+                <p>Owning a house and calling it your home is a dream many of us carry in our hearts. Paisabazaar helps
+                    you achieve that dream by offering the best interest rates.</p>
+            </div>
+        </div>
+        <div class="right-div col-7">
+            <header class="col-12"><button><a href="#">Sign In</a></button></header>
+
+            <div class="col-7 dynam-inc">
+              <div class="home_loan">HOME LOAN</div>
+              <div class="back" onclick="history.back()">&#60;</div>
+              <div class="steps">step <span class="inc-no">1</span>/5</div>
+            </div>
+
+             <p class="col-7 heading_underline">Enter details to curate best offers for you!! </p>
+
+            <form action="" class="col-7">
+             <p>Gender</p>
+             <div>
+             <label for="male">male</label>
+             <input type="radio" name="name" id="male" class="gender">
+             <label for="">Female</label>
+             <input type="radio" name="name" id="female" >
+              </div>
+              
+              <br>
+              <div class="makeRelative">
+              <label for="fname">FullName</label>
+              <input type="text" name="fname" id="fname"  class="curest_offer" placeholder="As per your PAN">
+              </div>
+              <br>
+              <div class="makeRelative">
+              <label for="Email">Email Address</label>
+              <input type="text" name="Email" id="Email" placeholder="Enter your email address"  class="curest_offer">
+              </div>
+              <br>
+              <div class="makeRelative">
+              <label for="DOB">Date Of Birth</label>
+              <input type="text" name="DOB" id="DOB" placeholder="DD-MM-YYYY"  class="curest_offer">
+              <span class="check" >0/10 Digits</span>
+
+              <small>Note:As per your PAN CARD</small>
+              <!-- <p>Note:As per your PAN CARD</p> -->
+              </div>
+              <br>
+              <div class="makeRelative">
+              <label for="pin_code">PIN CODE</label>
+              <input type="number" name="pincode" id="pincode" value="" placeholder="Enter your Area postal code"  class="curest_offer">
+              </div>
+              <br>
+               <div class="makeRelative">
+              <label for="panNumber">PAN Card Number</label>
+              <input type="text" name="panNumber" id="panNumber" class="curest_offer" placeholder="Enter permanent account number">
+              <span class="check" >0/10 characters</span>
+              <small>Note:This will be used to calculate your loan eligibility</small>
+              </div>
+              
+
+              <input type="button" class="col-5" value="Unlock Best Offers" name="bestOffer" id="bestOffer" onclick="makeFocus(this)">
+            </form>           
+        </div>
+    </div>
+    <script>
+          let intLen=document.getElementById('pincode');
+          console.log(intLen.value);
+
+          function makeFocus(id){
+            window.location.href="/verifyMobileNo.html";
+          }
+                  
+    </script>
+</body>
+</html>

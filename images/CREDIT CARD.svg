@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="33px" viewBox="0 0 52 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>42FF83F1-C061-484F-A1B7-CEE79387140E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 32.66175 51.5297391 32.66175 51.5297391 0 0 0"></polygon>
+    </defs>
+    <g id="Final-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dektop-White-2" transform="translate(-442.000000, -382.000000)">
+            <g id="Group" transform="translate(-121.000000, 132.000000)">
+                <g id="PRoducts" transform="translate(523.000000, 217.000000)">
+                    <g id="cc">
+                        <g id="CREDIT-CARD" transform="translate(40.000000, 33.000000)">
+                            <path d="M48.2765739,31.911525 L3.25286377,31.911525 C1.87297971,31.911525 0.753095652,30.798525 0.753095652,29.424525 L0.753095652,13.322025 L50.7755884,13.322025 L50.7755884,29.424525 C50.7755884,30.798525 49.656458,31.911525 48.2765739,31.911525" id="Fill-1" fill="#ED6262"></path>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-4"></g>
+                            <polygon id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)" points="0.753623188 13.32225 50.7761159 13.32225 50.7761159 7.761 0.753623188 7.761"></polygon>
+                            <path d="M50.7758899,7.760625 L0.753397101,7.760625 L0.753397101,3.237375 C0.753397101,1.864125 1.87252754,0.749625 3.25241159,0.749625 L48.2768754,0.749625 C49.6567594,0.749625 50.7758899,1.864125 50.7758899,3.237375 L50.7758899,7.760625 Z" id="Fill-5" fill="#ED6262" mask="url(#mask-2)"></path>
+                            <path d="M50.7758899,17.5077 L50.7758899,29.42895 C50.7758899,30.79995 49.6590203,31.91145 48.2806435,31.91145 L3.2493971,31.91145 C1.87026667,31.91145 0.753397101,30.79995 0.753397101,29.42895 L0.753397101,7.7607 L44.4281217,7.7607" id="Stroke-6" stroke="#1B325E" stroke-width="1.50724638" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                            <path d="M0.753472464,3.23355 C0.753472464,1.8618 1.87034203,0.74955 3.24947246,0.74955 L48.2807188,0.74955 C49.6590957,0.74955 50.7759652,1.8618 50.7759652,3.23355 L50.7759652,13.3218 L6.95277681,13.3218" id="Stroke-7" stroke="#1B325E" stroke-width="1.50724638" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                            <path d="M6.93476522,25.6398 L17.4334899,25.6398" id="Stroke-8" stroke="#FFFFFF" stroke-width="1.50724638" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                            <path d="M21.5913797,25.6398 L26.4266261,25.6398" id="Stroke-9" stroke="#FFFFFF" stroke-width="1.50724638" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                            <path d="M40.390058,25.6398 L45.226058,25.6398" id="Stroke-10" stroke="#FFFFFF" stroke-width="1.50724638" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

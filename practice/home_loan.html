@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home_loan.css">
+</head>
+
+<body>
+    <div class="outer_div">
+        <div class="inner_div_left">
+            <header>
+                <img src="images/paisaLogo.svg" alt="paisabazaar_logo" width="148px">
+            </header>
+            <div class="left_content">
+                <h1>HOME LOAN</h1>
+                <p>Owning a house and calling it your home is a dream many of us carry in our hearts. Paisabazaar helps
+                    you achieve that dream by offering the best interest rates.</p>
+            </div>
+        </div>
+        <div class="inner_div_right">
+            <header>
+                <button>Sign In</button>
+            </header>
+            <div class="Inner_right_content" id="Inner_right_content">
+                <p class="inner_right_heading">Unlock Best <strong>Home Loan</strong> Offers suitable for your needs
+                    from <strong>20+ Lender </strong> </p>
+                <div class="underLine"></div>
+                <ul>
+                    <li>Compare offer from top banks</li>
+                    <li>Interest Rate:6.50% Onwards</li>
+                    <li>Loan tenure up to 3 years</li>
+                </ul>
+            </div>
+            <form action="" id="form--1">
+                <label for="mobile">Mobile Number</label>
+                <div><img src="images/Flag_of_India@2x.png" alt="Flag_of_India" width="20px">
+                    <input type="text" name="mobile" id="mobile" placeholder="" onfocus="hideContent(this)"
+                        value="+91 - "><span>0/10 digits</span>
+                </div>
+                <p class="note"><span class="pricious">Note:</span>Our experts will contact you on this number </p>
+
+                <p class="agreeness">By entering mobile number, you agree to our <a href="#">Privacy Policy & </a><a
+                        href="#">Terms of Use</a></p>
+
+            </form>
+
+            <button id="proceed" onclick="nextForm()">Proceed</button>
+            <div class="whatsappDetail"><img src="" alt=""><span style="color: rgba(5,47,95,1); font-size: 12px;">Get
+                    Updates on whatsapp</span>
+                <label class="switch" style="padding: 0 0 0 0;">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <form action="" id="form--2">
+
+                <header>
+                    <h4>HOME LOAN</h4>
+                    <p>STEP </p><SPAN>1/6</SPAN>
+                </header>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        var form1 = document.getElementById('form--1');
+        form1.style.display = 'grid';
+        var InnerRightContent = document.getElementById('Inner_right_content');
+        InnerRightContent.style.display = 'block';
+        var form2 = document.getElementById('form--2');
+        form2.style.display = 'none';
+        function nextForm() {
+            if (form1.style.display === 'grid') {
+                form1.style.display = 'none';
+                form2.style.display = 'grid';
+                InnerRightContent.style.display = 'none';
+                document.getElementById('proceed').style.display = 'none';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
+<!-- <a href="home_loan2.html" target="_blank"></a> -->

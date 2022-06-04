@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="viewAllCities.css">
+</head>
+<body>
+    <div class="backGround_div" >
+        
+        <div class="floated_div col-4">
+            <div class="search">
+                <!-- <img src="images/ic_search.svg" alt="Flag_of_India"  width="15px"> -->
+                <input type="text" placeholder="Search your property city" class="search_icon">
+                <!-- <span style="height: 12px; width: 12px;" >X</span> -->
+                <span>X</span>
+            </div>
+            <h5 class="heading">All Cities</h5>
+            <form class="vertical-city">
+                <ul>
+                   
+                  <li onclick="makeFocus(this)">
+                    <label>Delhi</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                <li>
+                    <label>home_loan2</label>  
+                    <input type="radio" value="Delhi" name="link" id="delhi">
+                </li>
+                  
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script>
+        function makeFocus(id){
+            console.log(id);
+            var x=id.children[1];
+            x.checked=true;
+            window.location="/days.html";
+        }
+    </script>
+</body>
+</html>

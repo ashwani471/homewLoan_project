@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home_loan2.css">
+</head>
+
+<body>
+    <div class="outer_div">
+        <div class="inner-left-div col-5 ">
+            <header><img src="images/paisaLogo.svg" alt="paisabazaar_logo" width="148px">
+            </header>
+            <div class="left_content" id="left_content">
+                <h1>HOME LOAN</h1>
+                <p>Owning a house and calling it your home is a dream many of us carry in our hearts. Paisabazaar helps
+                    you achieve that dream by offering the best interest rates.</p>
+            </div>
+            <div id="showNew"></div>
+        </div>
+        <div class="inner-right-div col-7">
+            <header><button><a href="#">Sign In</a></button></header>
+            
+            <div class="inner_right_content" id="Inner_right_content">
+                <p class="inner_right_heading">Unlock Best <strong>Home Loan</strong> Offers suitable for your needs
+                    from <strong>20+ Lender </strong> </p>
+                <div class="underLine"></div>
+                <ul>
+                    <li>Compare offer from top banks</li>
+                    <li>Interest Rate:6.50% Onwards</li>
+                    <li>Loan tenure up to 3 years</li>
+                </ul>
+            </div>
+
+            <form action="" id="form--1">
+                <label for="mobile">Mobile Number</label>
+                <div class="mobile-info"><img src="images/Flag_of_India@2x.png"   alt="Flag_of_India" width="20px">
+                    <input type="text" name="mobile" id="mobile" placeholder="" onfocus="hideContent(this)"
+                        value="+91 - "><span>0/10 digits</span>
+                </div>
+                <p class="note"><span class="pricious">Note:</span>Our experts will contact you on this number </p>
+
+                <p class="agreeness">By entering mobile number, you agree to our <a href="#">Privacy Policy & </a><a
+                        href="#">Terms of Use</a>
+                </p>
+                
+                <button id="proceed" onclick="nextForm()"><a href="loan_Amount.html">Proceed</a> </button>
+                <div class="whatsappDetail"><img src="images/Bitmap@2x.png" alt="whatsapp"     width="24px" height="24px"><span
+                        >Get Updates on whatsapp</span>
+                    <label class="switch" style="padding: 0 0 0 0;">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+
+                <!-- <div class="inner_right_content" id="Inner_right_content">
+                    <p class="inner_right_heading">Unlock Best <strong>Home Loan</strong> Offers suitable for your needs
+                        from <strong>20+ Lender </strong> </p>
+                    <div class="underLine"></div>
+                    <ul>
+                        <li>Compare offer from top banks</li>
+                        <li>Interest Rate:6.50% Onwards</li>
+                        <li>Loan tenure up to 3 years</li>
+                    </ul>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <!-- <script>
+        var left_content=document.getElementById('left_content');
+        var right_div_content=document.getElementById('Inner_right_content');
+        // console.log(right_div_content);
+        const mediaQuery = window.matchMedia('(max-width: 768px)');
+            if(mediaQuery.matches){
+                console.log(right_div_content);
+                right_div_content.style.display='none';
+                left_content.insertAdjacentElement("afterend","right_div_content");
+            //    left_content.innerHTML=right_div_content;                
+
+            }else{
+                right_div_content.style.display='block';
+            }
+    </script> -->
+    <script>
+
+    </script>
+</body>
+
+</html>
